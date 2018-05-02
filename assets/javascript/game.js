@@ -1,1 +1,1 @@
-alert("hello world");
+alert("Press Any Key to Get Started!");
