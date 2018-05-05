@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
-    <script src="assets/javascript/game.js"></script>
+   
 
 
 </head>
@@ -30,19 +30,19 @@
             </div>
             <div class="col-sm-4">
                 <div class="font-weight-bold">
-                <h3 id="current-word">Press any key to get started with the current word!
+                <h3 id="messages">Press any key to get started with the current word!
                 </h3>
-                <h2 id="word-guess">__ __ __ __</h2>
+                <h2 id="word-guess"></h2>
             </div>
                 <br>
                 <div class="guessRemain font-weight-bold">
-                    <h3>Number of guesses remaining:</h3>
+                    <h3>Number of guesses remaining:<span id="guesses-remain"></span></h3>
                 </div>
                 <br>
                 <br>
                 <br>
                 <div class="letterGuess font-weight-bold">
-                    <h3>Letters already used:</h3>
+                    <h3>Letters already used: <span id="letters-guessed"></span></h3>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -50,5 +50,7 @@
         </div>
 
     </div>
-
+    <script src="assets/javascript/game.js"></script>
 </body>
+</html>
+
